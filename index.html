@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto FNAF</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/images/Logo3.svg" alt="Logo fnaf">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem </h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="freddy"
+                data-name="Freddy" data-description="Freddy é um urso animatrônico marrom que atua como a atração principal e vocalista na pizzaria fictícia Freddy Fazbear's Pizza. Ele é conhecido por sua aparência assustadora e sua risada sinistra. Freddy é um ser amaldiçoado e possuído por uma criança">
+                <img src="./src/images/card-freddy.jpg"
+                alt="Personagem Freddy">
+            </li>
+            <li class="personagem selecionado" id="chica"
+                data-name="Chica" data-description="Chica é uma galinha animatrônica amarela e uma das principais atrações da pizzaria fictícia Freddy Fazbear's Pizza. Ela usa um babador escrito LETS EAT!!! ou VAMOS COMER!!! em português. Chica é um ser amaldiçoado e possuído por uma criança, sendo possível ouvir gemidos assustadores vindos dela">
+                <img src="./src/images/card-chica.jpg"
+                alt="Personagem Chica">
+            </li>
+            <li class="personagem selecionado" id="bonnie"
+                data-name="Bonnie" data-description="Bonnie é um coelho animatrônico azul e guitarrista, sendo uma das principais atrações da pizzaria fictícia Freddy Fazbear's Pizza. Ele é mais um dos seres amaldiçoados e possuídos por uma criança, soltando gemidos assustadores semelhantes aos da Chica">
+                <img src="./src/images/card-bonnie.jpg"
+                alt="Personagem Bonnie">
+            </li>
+            <li class="personagem selecionado" id="foxy"
+                data-name="Foxy" data-description="Foxy é uma raposa animatrônica pirata que está fora de serviço. Possui dentes afiados e um enorme gancho, além de um tapa-olho. É muito rápido e ágil. Também é um ser amaldiçoado e possuído por uma criança.">
+                <img src="./src/images/card-foxy.jpg"
+                alt="Personagem Foxy">
+            </li>
+            <li class="personagem selecionado" id="goldenfreddy"
+                data-name="Golden Freddy" data-description="Um robô antigo misterioso, com aparência vazia e assustadora, possui uma alma vingativa e, diferentemente dos outros, tem o poder paranormal de se teleportar">
+                <img src="./src/images/card-goldenfreddy.jpg"
+                alt="Personagem Golden Freddy">
+            </li>
+            <li class="personagem selecionado" id="puppet"
+                data-name="Puppet" data-description="Puppet é uma marionete criada por Henry, o fundador da Freddy's, para proteger sua filha Charlie de qualquer perigo. Em uma noite chuvosa, Charlie é assassinada por um homem de roxo do lado de fora da pizzaria. O animatrônico encontra a menina e, com a chuva, acaba estragando e deitando ao lado da criança, que logo possui o robô">
+                <img src="./src/images/card-puppet.jpg"
+                alt="Personagem Puppet">
+            </li>
+            <li class="personagem selecionado" id="springtrap"
+                data-name="Springtrap" data-description="Springtrap ou Springbonnie é um animatrônico antigo que possui o corpo e alma de William Afton, que está aprisionado dentro do robô. Ele também é o assassino das crianças que possuem os animatrônicos da pizzaria">
+                <img src="./src/images/card-springtrap.jpg"
+                alt="Personagem Springtrap">
+            </li>
+            <li class="personagem selecionado" id="mangle"
+                data-name="Mangle" data-description="Mangle é um animatrônico da pizzaria anterior do Freddy's. Sua aparência está quebrada devido ao fato de as crianças sempre a quebrarem. Como os técnicos não quiseram mais consertá-la, ela acabou ficando toda quebrada e assustadora. Além disso, ela possui a alma de uma criança">
+                <img src="./src/images/card-mangle.jpg"
+                alt="Personagem Mangle">
+            </li>
+
+        </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/images/card-freddy.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem"
+                id="nome-personagem">Freddy</h2>
+                <p class="descricao-personagem"
+                id="descricao-personagem">Freddy é um urso animatrônico marrom que atua como a atração principal e vocalista na pizzaria fictícia Freddy Fazbear's Pizza. Ele é conhecido por sua aparência assustadora e sua risada sinistra. Freddy é um ser amaldiçoado e possuído por uma criança</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
